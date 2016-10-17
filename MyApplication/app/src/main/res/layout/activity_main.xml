@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="bega.io.myapplication.MainActivity">
+
+    <EditText
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_main_primer_textbox"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_below="@id/activity_main_primer_textbox"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_main_mi_contrasena"
+        android:hint="contraseña"
+        android:layout_margin="10dp"/>
+
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:id="@+id/activity_main_boton"
+        android:layout_alignParentBottom="true"
+        android:text="Mi primer Boton"
+        android:layout_margin="10dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/panda"
+        android:id="@+id/activity_main_imageview_animales" />
+
+</RelativeLayout>
